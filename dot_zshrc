@@ -110,10 +110,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-AZCOPY_AUTO_LOGIN_TYPE=azcli
-
-. "$HOME/.local/bin/env"
-eval "$(/home/antonsc/.local/bin/mise activate zsh)"
-eval "$(zoxide init bash)"
+eval "$(mise activate zsh)"
+eval "$(zoxide init zsh)"
 
 source $HOME/.aliases
