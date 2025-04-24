@@ -1,0 +1,22 @@
+[tools]
+azure = "latest"
+bat = "latest"
+delta = "latest"
+dust = "latest"
+eza = "latest"
+fd = "latest"
+just = "latest"
+gh = "latest"
+jj = "latest"
+uv = "latest"
+yazi = "latest"
+zoxide = "latest"
+chezmoi = "2.62.2"
+
+[env]
+AZCOPY_AUTO_LOGIN_TYPE = "AZCLI"
+BAT_THEME = "TwoDark"
+PAGER = "delta"
+
+[settings]
+experimental = true
