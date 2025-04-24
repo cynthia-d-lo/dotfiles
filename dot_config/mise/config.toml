@@ -12,6 +12,7 @@ uv = "latest" # Package manager
 yazi = "latest" # File browser
 zoxide = "latest" # Smarter CD
 chezmoi = "latest" # Dotfile manager
+tldr = "latest" # Better man pages
 
 [env]
 AZCOPY_AUTO_LOGIN_TYPE = "AZCLI"
