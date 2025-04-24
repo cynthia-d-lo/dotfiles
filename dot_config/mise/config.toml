@@ -1,17 +1,17 @@
 [tools]
-azure = "latest"
-bat = "latest"
-delta = "latest"
-dust = "latest"
-eza = "latest"
-fd = "latest"
-just = "latest"
-gh = "latest"
-jj = "latest"
-uv = "latest"
-yazi = "latest"
-zoxide = "latest"
-chezmoi = "2.62.2"
+azure = "latest" # Azure CLI
+bat = "latest" # Cat with syntax highlighting
+delta = "latest" # Git diff
+dust = "latest" # Disk usage
+eza = "latest" # Better ls
+fd = "latest" # File finder
+just = "latest" # Task runner
+gh = "latest" # GitHub CLI
+jj = "latest" # Source control
+uv = "latest" # Package manager
+yazi = "latest" # File browser
+zoxide = "latest" # Smarter CD
+chezmoi = "latest" # Dotfile manager
 
 [env]
 AZCOPY_AUTO_LOGIN_TYPE = "AZCLI"
