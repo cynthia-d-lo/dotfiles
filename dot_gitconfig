@@ -23,3 +23,6 @@
 
 [push]
 	autoSetupRemote = true
+
+[pull]
+	rebase = false # Use merge by default
