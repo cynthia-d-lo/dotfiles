@@ -5,6 +5,8 @@
 # to not use bash.
 export SHELL=$(which zsh)
 
+export EDITOR=nano
+
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
