@@ -10,6 +10,9 @@ export EDITOR=nano
 # Place UV environment outside of the project directory
 export UV_PROJECT_ENVIRONMENT="$HOME/.venv"
 
+# Set the GCM (Git Credential Manager) to use the in-memory cach
+export GCM_CREDENTIAL_STORE=cache
+
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
