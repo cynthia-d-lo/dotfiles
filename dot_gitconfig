@@ -26,8 +26,10 @@
 
 [pull]
 	rebase = false # Use merge by default
+
 [credential]
 	helper = /usr/local/bin/git-credential-manager
 	credentialStore = cache
+
 [credential "https://dev.azure.com"]
 	useHttpPath = true
