@@ -5,7 +5,7 @@
 # to not use bash.
 export SHELL=$(which zsh)
 
-export EDITOR=nano
+export EDITOR=emacs
 
 # Place UV environment outside of the project directory
 # export UV_PROJECT_ENVIRONMENT="$HOME/.venv"
@@ -127,7 +127,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-eval "$(/home/antonsc/.local/bin/mise activate zsh)"
+eval "$(/home/t-cynthialo/.local/bin/mise activate zsh)"
 eval "$(zoxide init zsh)"
 
 source $HOME/.aliases

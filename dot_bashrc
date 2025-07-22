@@ -119,6 +119,6 @@ fi
 . "$HOME/.local/bin/env"
 . "$HOME/.cargo/env"
 
-eval "$(/home/antonsc/.local/bin/mise activate bash)"
+eval "$(/home/t-cynthialo/.local/bin/mise activate bash)"
 eval "$(zoxide init bash)"
 source .aliases
